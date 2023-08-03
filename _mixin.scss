@@ -1,0 +1,14 @@
+// Mixin
+@mixin button {
+  display: inline-block;
+  background-color: #80b4ff;
+  color: #ffffff;
+  margin-left: 48em;
+  padding: 1em 2em;
+  border-radius: 2em;
+  text-decoration: none;
+
+  &:hover {
+    color: lighten($primaryColor, 20%);
+  }
+}
